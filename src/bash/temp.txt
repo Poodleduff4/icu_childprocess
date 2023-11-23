@@ -1,0 +1,19 @@
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Wed Nov 22 21:12:17 2023
+Version 19.8.0.0.0
+
+Copyright (c) 1982, 2020, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL> 
+"MED_HISTORY","DOB","PATIENT_NAME","GENDER","HC_NUMBER","EXPIRY_DATE","EMERGENCY_CONTACT"
+"none                                                                                                ","03-04-2000","Obama                         ","Male                ","1234-987-909-IO","08-04-2024","124-975-0582"
+"none                                                                                                ","05-04-1959","John Smith                    ","Male                ","3940-887-109-OK","09-10-2025","893-902-9302"
+"none                                                                                                ","07-20-1990","Harry Joe                     ","Male                ","3824-956-890-CB","09-10-2025","982-233-0923"
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options

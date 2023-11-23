@@ -1,0 +1,10 @@
+"PATIENT_NAME","BED_NUM"
+"Leanna Martin                 ","1"
+"John Smith                    ","2"
+"Harry Joe                     ","3"
+"Leanna Martin                 ","4"
+"Johan Martin                  ","5"
+"John Martin                   ","6"
+"Pope francis                  ","7"
+
+7 rows selected.

@@ -1,14 +1,23 @@
 {
-  "name": "icu",
+  "name": "icu_database",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.2",
+    "childprocess": "^2.0.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "nexpect": "^0.6.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "shelljs": "^0.8.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -23,6 +32,9 @@
       "react-app/jest"
     ]
   },
+  "browser": {
+    "child_process": false
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -34,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^5.2.0"
   }
 }
